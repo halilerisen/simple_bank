@@ -1,7 +1,14 @@
 {
     "cSpell.words": [
         "alphanum",
+        "gomock",
+        "gonic",
+        "mockdb",
+        "Paseto",
+        "recoder",
         "simplebank",
-        "sqlc"
+        "sqlc",
+        "stretchr",
+        "verr"
     ]
 }
