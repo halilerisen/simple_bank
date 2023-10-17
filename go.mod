@@ -10,10 +10,11 @@ require (
 	github.com/google/uuid v1.3.1
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.18.0
 	github.com/lib/pq v1.10.9
+	github.com/rakyll/statik v0.1.7
 	github.com/spf13/viper v1.17.0
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/crypto v0.14.0
-	google.golang.org/grpc v1.58.2
+	google.golang.org/grpc v1.58.3
 	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.3.0
 )
 
