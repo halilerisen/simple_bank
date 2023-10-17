@@ -3,12 +3,14 @@
         "alphanum",
         "gomock",
         "gonic",
+        "Gprc",
         "mockdb",
         "Paseto",
         "recoder",
         "simplebank",
         "sqlc",
         "stretchr",
+        "timestamppb",
         "verr"
     ]
 }
