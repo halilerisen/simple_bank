@@ -6,6 +6,7 @@ import (
 	"log"
 	"net"
 	"net/http"
+	"simplebank/api"
 	db "simplebank/db/sqlc"
 	"simplebank/gapi"
 	"simplebank/pb"
@@ -35,6 +36,7 @@ func main() {
 	store := db.NewStore(conn)
 	go runGatewayServer(config, store)
 	runGprcServer(config, store)
+	// runGinServer(config, store)
 }
 
 func runGatewayServer(config util.Config, store db.Store) {
@@ -105,14 +107,14 @@ func runGprcServer(config util.Config, store db.Store) {
 	}
 }
 
-// func runGinServer(config util.Config, store db.Store) {
-// 	server, err := api.NewServer(config, store)
-// 	if err != nil {
-// 		log.Fatal("can not create server:", err)
-// 	}
+func runGinServer(config util.Config, store db.Store) {
+	server, err := api.NewServer(config, store)
+	if err != nil {
+		log.Fatal("can not create server:", err)
+	}
 
-// 	err = server.Start(config.HTTP_ServerAddress)
-// 	if err != nil {
-// 		log.Fatal("can not start server:", err)
-// 	}
-// }
+	err = server.Start(config.HTTP_ServerAddress)
+	if err != nil {
+		log.Fatal("can not start server:", err)
+	}
+}
