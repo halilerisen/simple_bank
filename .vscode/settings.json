@@ -2,6 +2,7 @@
     "cSpell.words": [
         "alphanum",
         "errdetails",
+        "gapi",
         "genproto",
         "gomock",
         "gonic",
@@ -14,6 +15,7 @@
         "Paseto",
         "protobuf",
         "protojson",
+        "rakyll",
         "recoder",
         "simplebank",
         "sqlc",
