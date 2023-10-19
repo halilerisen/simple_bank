@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
         "alphanum",
+        "asynq",
         "errdetails",
         "gapi",
         "genproto",
@@ -8,6 +9,7 @@
         "gonic",
         "googleapis",
         "Gprc",
+        "hibiken",
         "mockdb",
         "Msgf",
         "mtdt",
@@ -21,6 +23,7 @@
         "sqlc",
         "stretchr",
         "timestamppb",
-        "verr"
+        "verr",
+        "zerolog"
     ]
 }
