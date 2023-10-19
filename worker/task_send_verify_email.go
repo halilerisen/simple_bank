@@ -67,6 +67,7 @@ func (processor *RedisTaskProcessor) ProcessTaskSendVerifyEmail(ctx context.Cont
 
 	log.Info().
 		Str("verified_email", verifyEmail.Email).
+		Str("verified_email", verifyEmail.SecretCode).
 		Str("type", task.Type()).
 		Bytes("payload", task.Payload()).
 		Str("email", user.Email).
