@@ -17,6 +17,7 @@
         "mtdt",
         "narg",
         "Paseto",
+        "pgconn",
         "pgtype",
         "pgxpool",
         "protobuf",
