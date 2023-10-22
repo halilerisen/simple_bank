@@ -17,7 +17,6 @@ require (
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/crypto v0.14.0
 	google.golang.org/grpc v1.58.3
-	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.3.0
 )
 
 require (
@@ -35,7 +34,6 @@ require (
 )
 
 require (
-	github.com/golang/glog v1.1.0 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	google.golang.org/genproto v0.0.0-20230913181813-007df8e322eb // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20230913181813-007df8e322eb
